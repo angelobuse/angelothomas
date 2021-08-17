@@ -440,18 +440,18 @@ PAGE JS
 			}      
 		 };
 		 
-		$("html").on("contextmenu",function(){
-			return false;
-		});
+		// $("html").on("contextmenu",function(){
+		// 	return false;
+		// });
 	});
 	
 	/*===================================*
 	DEMO SWITCHER JS
 	*===================================*/
 	
-	$(window).on("load", function() {
-		$('body').prepend('<div id="demo_content" class="demo_switcher"></div>');
-		$("#demo_content").load("http://bestwebcreator.com/martyn/demo/demo.html");
-	});
+	// $(window).on("load", function() {
+	// 	$('body').prepend('<div id="demo_content" class="demo_switcher"></div>');
+	// 	$("#demo_content").load("http://bestwebcreator.com/martyn/demo/demo.html");
+	// });
 
 })(jQuery);
