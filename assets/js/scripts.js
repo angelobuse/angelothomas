@@ -1,12 +1,3 @@
-/*===================================
-Author       : Bestwebcreator.
-Template Name: Martyn CV - Resume / CV / Portfolio & vCard HTML5 Template
-Version      : 1.0
-===================================*/
-
-/*===================================*
-PAGE JS
-*===================================*/
 
 (function($) {
 	'use strict';
@@ -440,9 +431,9 @@ PAGE JS
 			}      
 		 };
 		 
-		// $("html").on("contextmenu",function(){
-		// 	return false;
-		// });
+		 $("html").on("contextmenu",function(){
+			return false;
+		 });
 	});
 	
 	/*===================================*
